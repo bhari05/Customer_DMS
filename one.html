@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Customer portal</title>
+     
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="one.css" />
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="h1right">
+          <div class="heading"> 
+            <p>Customer forum</p>
+          </div> 
+          <div class="btns">
+            <div class="btnl">
+              <button type="button" id="btn4">Add new Customer</button>
+            </div>
+            <div class="btnl">
+              <button type="button" id="btn3">Customer List</button>
+            </div>
+            <div class="btnl">
+              <button type="button" id="btn1">Add new Product Type</button>
+            </div>
+            <div class="btnl">
+              <button type="button" id="btn2">Delete Product Type</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="content">
+
+      <div class="add">
+      <div id="div1">
+        <div class="head1">
+          <p>Add new Product Type</p>
+          <hr>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="name1">Name: </label>
+            <div class="size">
+              <input type="input" class="form-control" id="name1" placeholder="Enter the name">
+            </div>
+          </div>
+          <div class="butt">
+            <button type="button" class="btn btn-default" id="btn5">Add</button>
+            <button type="button" class="btn btn-default" id="btn6">Cancel</button>
+          </div>
+        </form>
+      </div>
+      </div>
+
+      <div class="sub">
+      <div id="div2">
+        <div class="head1">
+          <p>Remove product type</p>
+          <hr>
+        </div>
+        <form>
+        <div class="form-group">
+          <div id="myDropdown" class="dropdown-content">
+            <div class="size">
+              <label>select the product type to be removed :</label>
+              <select id="select1">
+              <!--<option value="Developer">Developer</option>
+              <option value="Tester">Tester</option>-->
+              </select>
+            </div>
+          </div>
+        </div>    
+        <div class="butt">
+          <button type="button" id="btn7" class="btn btn-default">Remove</button>
+          <button type="button" id="btn8" class="btn btn-default">Cancel</button>
+        </div>
+        </form>
+      </div>  
+      </div>
+
+      <div class="divi">
+      <div id="div3">
+        <div class="head1">
+          <p>Customer List</p>
+        </div>
+        <!--<nav class="navbar navbar-default">
+          <div class="container-fluid">-->
+            <!--<div class="navbar-header">
+              <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>-->
+        <br>
+<ul id="listemp">
+  <!--<li><a class="active" href="#dev" id="dev">Developer</a></li>
+  <li><a href="#man" id="man">Manager</a></li>
+  -->
+</ul>
+
+  <!--</div>
+</nav>-->
+<div id="eldiv">
+<ul id="list1" >
+</ul>
+
+</div>
+<div class="butt">
+  <button type="button" id="eledit" class="btn btn-default" disabled="">Edit</button>
+  <button type="button" id="elrem" class="btn btn-default" disabled="">Remove</button>
+</div>
+     </div> 
+     </div>
+
+      <div class="mul">
+      <div id="div4">
+        <div class="head1">
+         <p>Add Customer</p>
+         <hr>
+        </div>
+         <form>
+        <div class="form-group">
+    <label for="name2">Name</label>
+    <div class="size">
+    <input type="input" class="form-control" id="name2" placeholder="Enter their name">
+    </div>
+  </div>
+
+   <div class="form-group">
+    <label for="des">Product bought</label>
+    <div class="size">
+    <input type="input" class="form-control" id="des" placeholder="Name of the product">
+    </div>
+  </div>
+  <div class="extra">
+  <div class="size">
+    <label>Product Type</label>
+    <select id="select2">
+    <!--<option value="Developer">Developer</option>
+    <option value="Tester">Tester</option>-->
+       </select>
+      </div>
+    </div>
+       <br>
+  <div class="butt">
+  <button type="button" id="addadd" class="btn btn-default">Add</button>
+
+  <button type="button" id="addundo" class="btn btn-default">Undo</button>
+</div>
+</form>
+     </div>
+    </div>
+            </div>  
+
+               
+<script type="text/javascript" src="create.js"> </script>
+</body>
+</html>
+
